@@ -134,7 +134,7 @@ form button{
 }
 
 form button:hover{
-    background: color #ececee;
+    background-color: #314e9e;
 }
 
 input:focus, textarea:focus{
