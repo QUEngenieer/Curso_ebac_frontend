@@ -8,18 +8,18 @@ header,
 section h2,
 section h3,
 form button {
-    font-family: 'Bungee', cursive;
+    font-family: 'EB Garamonf', serif;
     font-weight: normal;
 }
 
 body, input, textarea{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 header{
     padding: 16px 0;
-    background-color:#182c61;
-    color: #ecf0f1;
+    background-color:#151618;
+    color: #c40b0b;
 }
 
 header h1,
@@ -29,6 +29,8 @@ form button{
     font-weight: normal;
 }
 
+
+
 header nav li{
     display: inline;
     margin-left:16px;
@@ -36,7 +38,7 @@ header nav li{
 }
 
 header nav li a{
-    color:#ecf0f1;
+    color:#f00c0c;
     text-decoration: none;
 }
 
@@ -61,8 +63,10 @@ section .container {
     margin-right: 8px;
 }
 
-section .container { 
+section .container, 
+header h2 p { 
     align-items: flex-start;
+    
 }
 
 section {
@@ -75,7 +79,7 @@ section h2{
 }
 
 section{
-    color: #182c61;
+    color: #151618;
 }
 
 section p{
@@ -127,22 +131,22 @@ section h3{
 }
 
 form button{
-    background-color: #182c61;
+    background-color: #151618;
     color: #ecf0f1;
     border: none;
     cursor: pointer;
 }
 
 form button:hover{
-    background-color: #314e9e;
+    background-color: #353638;
 }
 
 input:focus, textarea:focus{
-    outline: #182c61;
+    outline: #151618;
 }
 
 footer{
-    background-color: #182c61;
+    background-color: #151618;
     color: #ecf0f1;
     padding: 16px;
 }
