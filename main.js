@@ -23,4 +23,8 @@ form.addEventListener('submit', function(evento){
         containerMensagemErro.innerHTML = mensagemErro;
         containerMensagemErro.style.display = 'block';
         }
+        setTimeout(function() {
+            containerMensagemErro.style.display = 'none';
+            containerMensagemSucesso.style.display = 'none';
+        }, 3000);
 });
